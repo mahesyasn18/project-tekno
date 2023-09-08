@@ -19,8 +19,13 @@
         {{ $header }}
         @endisset
     </header>
-    <main class="container mt-5">
+    <main class="container mt-5 mb-5">
         {{ $slot }}
     </main>
+    <footer>
+        @isset($footer)
+        {{ $footer }}
+        @endisset
+    </footer>
 </body>
 </html>
