@@ -1,0 +1,27 @@
+.bg-nav {
+    background-color: #d9d9d9;
+}
+
+.fs-7 {
+    font-size: 12px;
+}
+
+.item:after {
+    content: "";
+    position: absolute;
+    border-radius: 5px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.85),
+        25%,
+        rgba(0, 0, 0, 0)
+    );
+}
+
+.fs-11 {
+    font-size: 11px;
+}
